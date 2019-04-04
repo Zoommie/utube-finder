@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.0/css/bootstrap.min.css">
+    <title>Youtube Finder</title>
+</head>
+
+<body>
+    <header>
+        <div class="social-media-block">
+            <div class="social-media">
+                <a href="#" target="_blank"><img src="images/twitter.png" width="100%" /></a>
+            </div>
+            <div class="social-media">
+                <a href="#" target="_blank"><img src="images/fb.png" width="100%" /></a>
+            </div>
+            <div class="social-media">
+                <a href="#" target="_blank"><img src="images/youtube.png"
+                        width="100%" /></a>
+            </div>
+        </div>
+        <div class="h1-holder">
+            <a href="#">
+            </a>
+        </div>
+        <div class="input-wrapper">
+            <input type="text" name="search" id="search" placeholder="SEARCH A VIDEO">
+        </div>
+        <div class="button-holder">
+            <button type="button" value="search" id="searchButton">SEARCH</button>
+            <button type="button" class="tokenClass" id="nToken" value="Next">NEXT</button>
+        </div>
+    </header>
+    <main>
+        <div class="container" id="one">
+            <div id="output">
+
+            </div>
+            <h2 class="error-msg">Error Fetching Data</h2>
+            <h2 class="no-match">No Matching Videos</h2>
+        </div>
+
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
